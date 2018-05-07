@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=
+        , initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Arizonia|Della+Respira|IM+Fell+English+SC|IM+Fell+French+Canon+SC|Lancelot|Marcellus+SC|Playfair+Display+SC|Sahitya|Sail|Tangerine|Biryani|Meddon|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <title>Name Generator</title>
+    </head>
+    <header class="block">
+        <h1 .header>What's My Name?</h1>
+        <img src="img/baby.jpg" alt="cute baby with white crochet hat">
+    </header>
+    <body>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <div id="radio-btns">
+            <input id="male" type="radio" name="gender" value="male" onclick="changeGender('male')"> Male<br>
+            <input id="female" type="radio" name="gender" value="female" onclick="changeGender('female')"> Female<br>
+            <input id="neutral" type="radio" name="gender" value="neutral"checked onclick="changeGender('neutral')"> Neutral 
+        </div> 
+        <button id="name" onclick="genName()">Give Name</button>
+        <h1 id="given-name"></h1>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

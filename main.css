@@ -1,0 +1,51 @@
+/*
+font-family: 'Playfair Display SC', serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Arizonia', cursive;
+font-family: 'IM Fell English SC', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Della Respira', serif;
+font-family: 'Sahitya', serif;
+font-family: 'Lancelot', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Biryani', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+header {
+    font-family: 'Meddon', cursive;
+}
+body {
+    text-align: center;
+    background-color: #846D74;
+    font-family: 'Biryani', sans-serif;
+}
+
+img {
+    margin: 0 auto;
+}
+
+#radio-btns {
+    display: flex;
+    justify-content: center;
+}
+
+#given-name {
+    font-size: 4em;    
+}
+
+.block {
+    display: block;
+}
+
+.male{
+    font-family: 'Marcellus SC', serif;
+}
+
+.female{
+    font-family: 'Della Respira', serif;
+}
+
+.neutral {
+    font-family: 'Playfair Display SC', serif;
+}
